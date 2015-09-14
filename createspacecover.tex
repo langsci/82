@@ -11,7 +11,8 @@
 \documentclass[output=covercreatespace             % long|short|inprep              
 % 	        ,blackandwhite
 % 		,smallfont
-%  	        ,draftmode  
+  	        ,draftmode  
+            ,draft,draft
 		,biblatex
 		  ]{LSP/langsci}    
   
@@ -39,10 +40,10 @@
 \begin{document}           
 \maketitle                
 \frontmatter
-% %% uncomment if you have preface and/or acknowledgements
+% %% uncomment if you have preface and/or acknowledgements 
 %\include{chapters/preface}
 \include{chapters/00AAcknowledgements}
-\include{chapters/00BAbbreviations}
+\include{chapters/00BAbbreviations} 
 \tableofcontents      
 \mainmatter         
  
@@ -69,6 +70,14 @@
 \include{chapters/12SimpleClausesAndArgumentStructure}
 \include{chapters/13ComplexConstructions}
 \include{chapters/14SentenceModification}
+
+\sloppy
+\setcounter{equation}{0}
+\include{chapters/Appendix1}
+\setcounter{equation}{0}
+\include{chapters/Appendix2}
+\fussy
+
 
 
 % copy the lines above and adapt as necessary
