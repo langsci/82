@@ -7,11 +7,6 @@
 %%%                                              %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \usepackage{lsp-gb4e} 
-%% to add additional information to the right of examples, uncomment the following line
-% \usepackage{jambox}
-%% if you want the source line of examples to be in italics, uncomment the following line
-% \renewcommand{\exfont}{\itshape}
-
  
 
 %cmld: bunt hinterlegte Zellen in Tabellen
@@ -20,9 +15,9 @@
 \newcommand{\dagrcell}[1]{{\cellcolor{gray!45} #1}}
 
 % for bidirectional text and support for Arabic/Persian, uncomment the following lines
-%  \newfontfamily\Parsifont[Script=Arabic]{XB Niloofar}
-% \usepackage{LSP/lsp-styles/lsp-bidi}
-%  \newcommand{\PRL}[1]{\RL{\Parsifont #1}}
+ \newfontfamily\Parsifont[Script=Arabic]{XB Niloofar.ttf}
+\usepackage{LSP/lsp-styles/lsp-bidi}
+ \newcommand{\PRL}[1]{\RL{\Parsifont #1}}
 
 
 %cmld: hyphenation of hyphenated words:
@@ -49,3 +44,5 @@
  \newcounter{todocountered}
   \newcommand{\edcomm}[2][]
  {\stepcounter{todocountered}\todo[size=\scriptsize, color=green!40, #1]{\textbf{Editors~\thetodocountered}: #2}~}
+ 
+ 
