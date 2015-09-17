@@ -15,7 +15,7 @@
 \newcommand{\dagrcell}[1]{{\cellcolor{gray!45} #1}}
 
 % for bidirectional text and support for Arabic/Persian, uncomment the following lines
- \newfontfamily\Parsifont[Script=Arabic]{XBNiloofar.ttf}
+ \newfontfamily\Parsifont[Script=Arabic]{XBNiloofar.ttf} 
 \usepackage{LSP/lsp-styles/lsp-bidi}
  \newcommand{\PRL}[1]{\RL{\Parsifont #1}}
 
@@ -44,5 +44,3 @@
  \newcounter{todocountered}
   \newcommand{\edcomm}[2][]
  {\stepcounter{todocountered}\todo[size=\scriptsize, color=green!40, #1]{\textbf{Editors~\thetodocountered}: #2}~}
- 
- 
