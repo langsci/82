@@ -6,13 +6,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
 % Everything following a % is ignored
-% Some lines start with %. Remove the % to include them
+% Some lines start with %. Remove the % to include them 
 
-\documentclass[output=covercreatespace             % long|short|inprep              
+\documentclass[output=covercreatespace             % short|inprep              
 % 	        ,blackandwhite
 % 		,smallfont
-  	        ,draftmode  
-            ,draft,draft
+%   	        ,draftmode  
+%             ,draft
 		,biblatex
 		  ]{LSP/langsci}    
   
@@ -20,18 +20,13 @@
 %%%                                              %%%
 %%%          additional packages                 %%%
 %%%                                              %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% put all additional commands you need in the 
-% following files. If you do not know what this might 
-% mean, you can safely ignore this section
-
-\input{localmetadata.tex} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\input{localmetadata.tex}  
 \input{localpackages.tex}
-\input{localhyphenation.tex}
-\input{localcommands.tex} 
+\input{localhyphenation.tex} 
+\input{localcommands.tex}  
 \bibliography{localbibliography} 
-
+ 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%                                              %%%
 %%%             Frontmatter                      %%%
@@ -53,12 +48,11 @@
 %%%             Chapters                         %%%
 %%%                                              %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%add a percentage sign in front of the line to exclude this chapter from book
-
+ 
 \include{chapters/01Introduction}
 \include{chapters/02TypologicalOverview}
 \include{chapters/03Phonology}
+\include{chapters/03bPartsOfSpeech}
 \include{chapters/04Nouns}
 \include{chapters/05PronounsAndDeterminers}
 \include{chapters/06AdjectivesAndQuantifiers}
@@ -70,7 +64,7 @@
 \include{chapters/12SimpleClausesAndArgumentStructure}
 \include{chapters/13ComplexConstructions}
 \include{chapters/14SentenceModification}
-
+% % 
 \sloppy
 \setcounter{equation}{0}
 \include{chapters/Appendix1}
@@ -79,8 +73,6 @@
 \fussy
 
 
-
-% copy the lines above and adapt as necessary
  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -88,8 +80,7 @@
 %%%             Backmatter                       %%%
 %%%                                              %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% There is normally no need to change the backmatter section
+ 
 \input{backmatter.tex}
 \end{document} 
 

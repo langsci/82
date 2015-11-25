@@ -125,4 +125,4 @@
 \iflsBlackandwhite
 	\renewcommand{\lsSeriesColor}{black}
 \fi
-}
+}	
