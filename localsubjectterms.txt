@@ -1,2 +1,232 @@
-subject terms to index
-oneperline
+accent
+accent-bearing
+accent-neutral
+accent-shifting
+accompanying circumstance
+accusative
+accusative agreement
+accusative alignment
+achievement predicate
+additive
+adjectival agreement
+adjectival predicate
+adjectival quantifier
+adjective
+adjective phrase
+adverb 
+adverbial clause 
+adverbial phrase
+affricate
+age adjective
+Agentive Verbal Noun 
+alignment
+alignment 
+anaphoric
+apposition
+approximant 
+argument structure 
+aspiration
+auxiliary
+calendrical adverb
+cardinal numeral
+causality
+causative
+causative predicate
+clausal complement
+clause
+clause chaining
+collective noun
+colour adjective
+commentative predicate
+complement 
+complement clause 
+complementiser
+complement-taking 
+complex predicate 
+compound postposition
+compound verb
+concessive
+Conditional
+conditionality
+conjunction
+conjunctive participle 
+conjunct verb 
+consonant cluster
+constituent interrogative
+Converb
+coordination
+Copredicative Participle 
+copula 
+copular clause 
+counterfactuality
+declension
+degree adverb
+deictic
+demonstrative 
+demonstrative pronoun 
+derivation
+derivational
+desiderative predicate
+determiner
+determiner agreement
+different-subject chaining
+dimensional adjective
+diphthong
+direct object
+discourse
+discourse-deictic
+discourse marker
+disjunction
+distal
+ergative
+ergative alignment
+existential
+exophoric
+extended agreement
+finite
+flap
+fricative
+Future
+future tense
+gapped relative clause
+gender
+gender 
+gender assignment
+gender/number agreement
+genetive phrase
+genitive
+grammatical relations
+Hearsay
+host element
+human propensity adjective
+Imperative
+imperfective
+indefinite-conditional relative clause
+indefinite-interrogative pronoun
+indirect object
+Infinitive
+inflecting adjective
+inflection
+inflectional
+intensifier
+interjection
+interrogative
+intransitive
+invariant adjective
+juxtaposition
+ki-construction
+lateral approximant
+light verb
+locative
+L-verb
+manipulation verb
+manner adverb
+modality verb
+modal predicate 
+mood 
+mood marker
+nasal
+nasalisation
+negation 
+nominalisation 
+nominal predicate
+nominative
+non-count noun
+nonfinite
+non-nominative
+non-standard valency
+nonverbal predicate
+noun
+noun declensions
+noun phrase
+numeral
+Obligative
+oblique
+ordinal numeral
+participial
+passive
+Past Imperfective
+past tense
+PCU
+perception prediate
+Perfect 
+perfective
+Perfective Participle
+permissive predicate
+person agreement
+personal pronoun
+phasal predicate
+phrase
+physical-property adjective
+pitch
+pitch accent
+plosive
+Pluperfect
+polar interrogative
+possessive pronoun
+postposition 
+postpositional phrase
+postpositional sequence
+postsection
+precedence
+predicate
+predicate agreement
+presection
+Present
+present tense
+pro-form
+prohibitive negation
+pronominal
+pronominal relative clause
+pronoun
+proper noun
+propositional attitude predicate
+proximate
+purpose
+quantifier
+quantifier phrase
+quotative
+reciprocal pronoun
+reduplication
+reflexive pronoun
+rejection 
+relative clause 
+relative pronoun
+remote
+retroflex
+same-subject chaining
+sentence adverb
+sex
+Simple Past
+simultaneity
+spatial adverb
+speed adjective
+subject
+subsequence
+substantivisation
+substitutive
+suppletive verb
+switch-topicality
+syllable
+syllable cluster
+syllable structure
+temporal adverb
+tense 
+topicality
+transitive
+T-verb
+umlaut
+utterance predicate
+valency
+valency addition
+value adjective
+velency reduction
+verb agreement
+verbal agreement
+verbal agreement 
+verbaliser
+Verbal Noun
+verbal predicate
+verb class
+verb phrase
+vocative 

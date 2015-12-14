@@ -1,2 +1,78 @@
-languages to index
-oneperline
+Arabic
+Austro-Asiatic
+Balti
+Bateri
+Brokskat
+Burushaski
+Chilisso
+Chitral
+Dameli
+Dardic
+Dravidian
+English
+Gandhari
+Gawarbati
+Gawri
+Kalam Kohistani
+Dir Kohistani
+Bashkarik
+Gojri
+Gowro
+Grangali
+Gujarati
+Indo-Aryan 
+
+
+
+
+Indo-European
+Indo-Iranian
+Indus Kohistani
+Kalasha
+Kalkoti
+Kashmiri
+Katarqalai
+Kati 
+Khowar
+Kohistani  
+Kunar  
+Kundal Shahi
+Nuristani
+Pamir  
+Pashai
+Pashto
+Pech 
+Pech-Kunar 
+Persian
+Farsi
+Prakrit
+Punjabi
+Sauji
+Sawi
+Shekhani 
+Kamviri
+Shekhwar
+Shina
+
+
+Shumashti
+Sinhalese
+Siraiki
+Tibetan
+Tibeto-Burman
+Tirahi
+Torwali
+Turkic
+Urdu
+Urdu-Hindi
+Ushojo
+
+Hindukush Indo-Aryan
+HKIA
+Middle Indo-Aryan
+MIA
+New Indo-Aryan 
+NIA
+Old Indo-Aryan 
+OIA
+
