@@ -1,5 +1,5 @@
-\NeedsTeXFormat{LaTeX2e} 
-\ProvidesClass{LSP/langsci}[2015/11/09 Language Science Press] 
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesClass{LSP/langsci}[2015/12/11 Language Science Press]
 
 % Default values:
 \usepackage{xspace}
@@ -141,7 +141,7 @@
         \newlength{\spinewidth}
         \newlength{\totalwidth}
         \newlength{\totalheight}
- 
+
  \ifx\lsOutput\lsOutputCoverCS % if output = cover; This is the CreateSpace Version 
 	\input{./lengths.tex}
  
@@ -247,20 +247,22 @@
 	BoldFont = DejaVuSansMono-Bold.ttf ,
 	SlantedFont = DejaVuSansMono-Oblique.ttf ,				
 	BoldSlantedFont = DejaVuSansMono-BoldOblique.ttf 		
-	]{DejaVuSansMono.ttf} 
+	]{DejaVuSansMono.ttf}
 
 \setmainfont[
-	Ligatures={TeX,Common},
-	Path=\fontpath,
-	PunctuationSpace=0,							
-	%Numbers={OldStyle,Proportional},			
-	Numbers={Proportional},	% normal numbers		
-	BoldFont = LinLibertine_RZ_B.otf ,			
-	ItalicFont = LinLibertine_RI_B.otf ,			
-	BoldItalicFont = LinLibertine_RZI_B.otf,             
+        Ligatures={TeX,Common},
+        Path=\fontpath,
+        PunctuationSpace=0,
+        Numbers={Proportional},
+        BoldFont = LinLibertine_RZ_B.otf ,
+        ItalicFont = LinLibertine_RI_B.otf ,
+        BoldItalicFont = LinLibertine_RZI_B.otf,
+        BoldSlantedFont = LinLibertine_RZ_B.otf,
         SlantedFont    = LinLibertine_R_B.otf,
-        SlantedFeatures = {FakeSlant=0.25} 		
-	]{LinLibertine_R_B.otf}			
+        SlantedFeatures = {FakeSlant=0.25},
+        BoldSlantedFeatures = {FakeSlant=0.25},
+        SmallCapsFeatures = {FakeSlant=0},
+        ]{LinLibertine_R_B.otf}		
 
 \iflsNewtxmath							% some users have problems when installing newtxmath
 	\usepackage[libertine]{newtxmath}
@@ -463,9 +465,7 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
     \@clubpenalty \clubpenalty
     \widowpenalty10000}
   
-%% change the default heading from "Bibliography" "List of references"
-\defbibheading{references}{\chapter{References}}
- 
+\defbibheading{references}{\chapter{References}} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -550,7 +550,7 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 \newcommand{\lsSubjectIndexTitle}{Subject index}
 \newcommand{\lsNameIndexTitle}{Name index}
 
-\AtBeginDocument{
+\AtBeginDocument{ % why this?
 \makeindex
 \newindex{lan}{ldx}{lnd}{\lsLanguageIndexTitle}
 % \newindex{aut}{adx}{and}{Name index}
@@ -562,58 +562,67 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 
 \indexproofstyle{\setlength{\overfullrule}{0pt}\raggedright\footnotesize}
 
-\def\fn#1#2{%
-\hyperpage{#2}$^{#1}$%
+%% \index inside footnote
+\def\infn#1#2{%
+	\hyperpage{#2}n#1%
 }%
+\newcommand{\footnoteindex}[2]{\index{#2|infn{#1}}}
+\newcommand{\footnoteindex@sbj}[2]{\index[sbj]{#2|infn{#1}}}
+\newcommand{\footnoteindex@lan}[2]{\index[lan]{#2|infn{#1}}}
+\newcommand{\footnoteindex@wrd}[2]{\index[wrd]{#2|infn{#1}}}
+
 \fi
 
 \newcommand{\ia}[1]{\if@noftnote%
 \index{#1}%
 \else%
-\index{#1|fn{\thefootnote}}%
+\edef\tempnumber{\thefootnote}%
+\expandafter\footnoteindex\expandafter{\tempnumber}{#1}%
+% \index{#1|fn{\thefootnote}}%
 \fi%
 }
 
 \newcommand{\is}[1]{\if@noftnote%
 \index[sbj]{#1}%
 \else%
-% irgendwie muss man ihn dazu bringen den Wert für footnote auch einzusetzen
-\index[sbj]{#1|fn{*}}%
+\edef\tempnumber{\thefootnote}%
+\expandafter\footnoteindex@sbj\expandafter{\tempnumber}{#1}%
 %\indexftn{#1}{\value{footnotemark}}%
 \fi%
 }
 
-\newcommand{\isfeat}[1]{\if@noftnote%
-\index{feature!{\sc #1}}%
-\else%
-%\index{feature!{\sc #1}|fn{\thefootnote}}%
-\index{feature!{\sc #1}|fn{*}}%
-\fi%
-}
+%% Stefan's code; obsolete?
+% \newcommand{\isfeat}[1]{\if@noftnote%
+% \index{feature!\textsc{#1}}%
+% \else%
+% %\index{feature!{\sc #1}|fn{\thefootnote}}%
+% \index{feature!\textsc{#1}|fn{*}}%
+% \fi%
+% }
 
-\newcommand{\istype}[1]{\if@noftnote%
-\index{type!#1@\type{#1}}%
-\else%
-%\index{type!{\it #1}|fn{\thefootnote}}
-\index{type!#1@\type{#1}|fn{*}}%
-\fi%
-}
+% \newcommand{\istype}[1]{\if@noftnote%
+% \index{type!#1@\type{#1}}%
+% \else%
+% %\index{type!{\it #1}|fn{\thefootnote}}
+% \index{type!#1@\type{#1}|fn{*}}%
+% \fi%
+% }
 
-\newcommand{\isrel}[1]{\if@noftnote%
-\index{relation!\emph{#1}}%
-\else%
-\index{relation!\emph{#1}|fn{*}}%
-\fi%
-}
+% \newcommand{\isrel}[1]{\if@noftnote%
+% \index{relation!\emph{#1}}%
+% \else%
+% \index{relation!\emph{#1}|fn{*}}%
+% \fi%
+% }
 
 
 %% \index[lan] für Einträge in separaten Index
-
 \newcommand{\il}[1]{%
 \if@noftnote%
 \index[lan]{#1}%
 \else%
-\index[lan]{#1|fn{*}}%
+\edef\tempnumber{\thefootnote}%
+\expandafter\footnoteindex@lan\expandafter{\tempnumber}{#1}%
 \fi%
 }
 
@@ -622,13 +631,15 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 \if@noftnote%
 \index[wrd]{#1}%
 \else%
-\index[wrd]{#1|fn{*}}%
+\edef\tempnumber{\thefootnote}%
+\expandafter\footnoteindex@wrd\expandafter{\tempnumber}{#1}%
 \fi%
 }
 
 % \iflsDraft
 %   \usepackage{showidx} 	% Doesn't work with multiple indexes?
 % \fi
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1219,7 +1230,7 @@ Illustration:
 Proofreading:
 \@proofreader \\
 \fi
-Fonts: Linux Libertine, Arimo, DejaVu Sans Mono\lsAdditionalFontsImprint\\ 
+Fonts: Linux Libertine, Arimo, DejaVu Sans Mono\lsAdditionalFontsImprint\\
 Typesetting software: \XeLaTeX
 
 \bigskip
@@ -1480,8 +1491,6 @@ is, or will remain, accurate or appropriate.
 				\item\relax}
 			   {\endlist}
 
-% varioref considered evil. We willh ave various output formats, and we do not know, where elements will be placed in all of them
-% \usepackage[english]{varioref}
 
 
 % useful commands for glossings:
