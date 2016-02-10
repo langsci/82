@@ -20,11 +20,6 @@ Gojri
 Gowro
 Grangali
 Gujarati
-Indo-Aryan 
-
-
-
-
 Indo-European
 Indo-Iranian
 Indus Kohistani
@@ -34,7 +29,6 @@ Kashmiri
 Katarqalai
 Kati 
 Khowar
-Kohistani  
 Kunar  
 Kundal Shahi
 Nuristani
@@ -53,8 +47,6 @@ Shekhani
 Kamviri
 Shekhwar
 Shina
-
-
 Shumashti
 Sinhalese
 Siraiki
@@ -66,7 +58,6 @@ Turkic
 Urdu
 Urdu-Hindi
 Ushojo
-
 Hindukush Indo-Aryan
 HKIA
 Middle Indo-Aryan
@@ -75,4 +66,5 @@ New Indo-Aryan
 NIA
 Old Indo-Aryan 
 OIA
-
+Kohistani  
+Indo-Aryan 

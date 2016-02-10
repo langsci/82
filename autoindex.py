@@ -16,9 +16,10 @@ for f in files:
   c = open(f).read()  
   for lg in lgs:
     lg = lg.strip()
+    shortlg = lg.replace(' ','').replace('-','')
     if lg == '':
       continue
-    c = re.sub('(?<!ili{)%s(?![\w}])'%lg, '\ili{%s}'%lg, c)
+    c = re.sub('(?<!ili{)%s(?![\w}])'%lg, '\ili%s'%shortlg, c)
   for term in terms:
     term = term.strip() 
     if term == '':
