@@ -16,7 +16,7 @@ for f in files:
   c = open(f).read()  
   for lg in lgs:
     lg = lg.strip()
-    shortlg = lg.replace(' ','').replace('-','')
+    shortlg = lg.replace(' ','').replace('-','').replace('"','').replace('=','') 
     if lg == '':
       continue
     c = re.sub('(?<!ili{)%s(?![\w}])'%lg, '\ili%s'%shortlg, c)
@@ -25,7 +25,7 @@ for f in files:
     if term == '':
        continue
     c = re.sub('(?<!isi{)%s(?![-_\w}])'%term, '\isi{%s}'%term, c)
-  nlg = len(re.findall('\\ili{',c))
+  nlg = len(re.findall('\\ili',c))
   nt = len(re.findall('\\isi{',c))
   outfile = open(f.replace('chapters','indexed'), 'w')
   outfile.write(c)

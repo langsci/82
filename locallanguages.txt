@@ -5,7 +5,7 @@ Bateri
 Brokskat
 Burushaski
 Chilisso
-Chitral
+Chitral group
 Dameli
 Dardic
 Dravidian
@@ -29,14 +29,14 @@ Kashmiri
 Katarqalai
 Kati 
 Khowar
-Kunar  
+Kunar group 
 Kundal Shahi
 Nuristani
-Pamir  
+Pamir group
 Pashai
 Pashto
-Pech 
-Pech-Kunar 
+Pech group
+Pech-Kunar group
 Persian
 Farsi
 Prakrit
@@ -55,16 +55,21 @@ Tibeto-Burman
 Tirahi
 Torwali
 Turkic
-Urdu
 Urdu-Hindi
+Urdu"=Hindi
+Urdu
 Ushojo
 Hindukush Indo-Aryan
+Hindukush Indo"=Aryan
 HKIA
 Middle Indo-Aryan
+Middle Indo"=Aryan
 MIA
 New Indo-Aryan 
+New Indo"=Aryan 
 NIA
 Old Indo-Aryan 
-OIA
-Kohistani  
+Old Indo"=Aryan 
+OIA 
+Indo"=Aryan 
 Indo-Aryan 
