@@ -93,7 +93,7 @@ gender
 gender 
 gender assignment
 gender/number agreement
-genetive phrase
+genitive phrase
 genitive
 grammatical relations
 Hearsay
