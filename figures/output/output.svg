@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" x="0" y="0" width="1680" height="775" clip-path="url(#MapClipRectangle)" style="overflow:hidden;text-rendering:optimizeLegibility" xmlns="http://www.w3.org/2000/svg">
+	<title>Map Generated Using Maperitive (http://maperitive.net)</title>
+	<desc>Map Generator: Maperitive v2.3.35 by Igor Brejc
+Time: 02/18/2016 10:18:17
+</desc>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="MapClipRectangle">
+			<rect x="0" y="0" width="1680" height="775" />
+		</clipPath>
+		<image id="symbol_tile_1" width="294" height="294" xlink:href="24.14.png" />
+		<image id="symbol_tile_2" width="294" height="294" xlink:href="24.15.png" />
+		<image id="symbol_tile_3" width="294" height="294" xlink:href="24.16.png" />
+		<image id="symbol_tile_4" width="294" height="294" xlink:href="24.17.png" />
+		<image id="symbol_tile_5" width="295" height="294" xlink:href="24.18.png" />
+		<image id="symbol_tile_6" width="294" height="294" xlink:href="24.19.png" />
+		<image id="symbol_tile_7" width="294" height="294" xlink:href="24.20.png" />
+		<image id="symbol_tile_8" width="294" height="294" xlink:href="25.14.png" />
+		<image id="symbol_tile_9" width="294" height="294" xlink:href="25.15.png" />
+		<image id="symbol_tile_10" width="294" height="294" xlink:href="25.16.png" />
+		<image id="symbol_tile_11" width="294" height="294" xlink:href="25.17.png" />
+		<image id="symbol_tile_12" width="295" height="294" xlink:href="25.18.png" />
+		<image id="symbol_tile_13" width="294" height="294" xlink:href="25.19.png" />
+		<image id="symbol_tile_14" width="294" height="294" xlink:href="25.20.png" />
+		<image id="symbol_tile_15" width="294" height="294" xlink:href="26.14.png" />
+		<image id="symbol_tile_16" width="294" height="294" xlink:href="26.15.png" />
+		<image id="symbol_tile_17" width="294" height="294" xlink:href="26.16.png" />
+		<image id="symbol_tile_18" width="294" height="294" xlink:href="26.17.png" />
+		<image id="symbol_tile_19" width="295" height="294" xlink:href="26.18.png" />
+		<image id="symbol_tile_20" width="294" height="294" xlink:href="26.19.png" />
+		<image id="symbol_tile_21" width="294" height="294" xlink:href="26.20.png" />
+		<image id="symbol_tile_22" width="294" height="295" xlink:href="27.14.png" />
+		<image id="symbol_tile_23" width="294" height="295" xlink:href="27.15.png" />
+		<image id="symbol_tile_24" width="294" height="295" xlink:href="27.16.png" />
+		<image id="symbol_tile_25" width="294" height="295" xlink:href="27.17.png" />
+		<image id="symbol_tile_26" width="295" height="295" xlink:href="27.18.png" />
+		<image id="symbol_tile_27" width="294" height="295" xlink:href="27.19.png" />
+		<image id="symbol_tile_28" width="294" height="295" xlink:href="27.20.png" />
+		<symbol id="symbol_text_29">
+			<text transform="translate(9.5,808.22) scale(0.85,1)">24°</text>
+			<text transform="translate(9.5,808.22) scale(0.85,1)">24°</text>
+		</symbol>
+		<symbol id="symbol_text_30">
+			<text transform="translate(9.5,692.81) scale(0.85,1)">26°</text>
+			<text transform="translate(9.5,692.81) scale(0.85,1)">26°</text>
+		</symbol>
+		<symbol id="symbol_text_31">
+			<text transform="translate(9.5,575.42) scale(0.85,1)">28°</text>
+			<text transform="translate(9.5,575.42) scale(0.85,1)">28°</text>
+		</symbol>
+		<symbol id="symbol_text_32">
+			<text transform="translate(9.5,455.82) scale(0.85,1)">30°</text>
+			<text transform="translate(9.5,455.82) scale(0.85,1)">30°</text>
+		</symbol>
+		<symbol id="symbol_text_33">
+			<text transform="translate(9.5,333.8) scale(0.85,1)">32°</text>
+			<text transform="translate(9.5,333.8) scale(0.85,1)">32°</text>
+		</symbol>
+		<symbol id="symbol_text_34">
+			<text transform="translate(9.5,209.08) scale(0.85,1)">34°</text>
+			<text transform="translate(9.5,209.08) scale(0.85,1)">34°</text>
+		</symbol>
+		<symbol id="symbol_text_35">
+			<text transform="translate(9.5,81.38) scale(0.85,1)">36°</text>
+			<text transform="translate(9.5,81.38) scale(0.85,1)">36°</text>
+		</symbol>
+		<symbol id="symbol_text_36">
+			<text transform="translate(-53.39,21.5) scale(0.85,1)">54°</text>
+			<text transform="translate(-53.39,21.5) scale(0.85,1)">54°</text>
+		</symbol>
+		<symbol id="symbol_text_37">
+			<text transform="translate(51.2,21.5) scale(0.85,1)">56°</text>
+			<text transform="translate(51.2,21.5) scale(0.85,1)">56°</text>
+		</symbol>
+		<symbol id="symbol_text_38">
+			<text transform="translate(155.79,21.5) scale(0.85,1)">58°</text>
+			<text transform="translate(155.79,21.5) scale(0.85,1)">58°</text>
+		</symbol>
+		<symbol id="symbol_text_39">
+			<text transform="translate(260.38,21.5) scale(0.85,1)">60°</text>
+			<text transform="translate(260.38,21.5) scale(0.85,1)">60°</text>
+		</symbol>
+		<symbol id="symbol_text_40">
+			<text transform="translate(364.97,21.5) scale(0.85,1)">62°</text>
+			<text transform="translate(364.97,21.5) scale(0.85,1)">62°</text>
+		</symbol>
+		<symbol id="symbol_text_41">
+			<text transform="translate(469.56,21.5) scale(0.85,1)">64°</text>
+			<text transform="translate(469.56,21.5) scale(0.85,1)">64°</text>
+		</symbol>
+		<symbol id="symbol_text_42">
+			<text transform="translate(574.15,21.5) scale(0.85,1)">66°</text>
+			<text transform="translate(574.15,21.5) scale(0.85,1)">66°</text>
+		</symbol>
+		<symbol id="symbol_text_43">
+			<text transform="translate(678.74,21.5) scale(0.85,1)">68°</text>
+			<text transform="translate(678.74,21.5) scale(0.85,1)">68°</text>
+		</symbol>
+		<symbol id="symbol_text_44">
+			<text transform="translate(783.32,21.5) scale(0.85,1)">70°</text>
+			<text transform="translate(783.32,21.5) scale(0.85,1)">70°</text>
+		</symbol>
+		<symbol id="symbol_text_45">
+			<text transform="translate(887.91,21.5) scale(0.85,1)">72°</text>
+			<text transform="translate(887.91,21.5) scale(0.85,1)">72°</text>
+		</symbol>
+		<symbol id="symbol_text_46">
+			<text transform="translate(992.5,21.5) scale(0.85,1)">74°</text>
+			<text transform="translate(992.5,21.5) scale(0.85,1)">74°</text>
+		</symbol>
+		<symbol id="symbol_text_47">
+			<text transform="translate(1097.09,21.5) scale(0.85,1)">76°</text>
+			<text transform="translate(1097.09,21.5) scale(0.85,1)">76°</text>
+		</symbol>
+		<symbol id="symbol_text_48">
+			<text transform="translate(1201.68,21.5) scale(0.85,1)">78°</text>
+			<text transform="translate(1201.68,21.5) scale(0.85,1)">78°</text>
+		</symbol>
+		<symbol id="symbol_text_49">
+			<text transform="translate(1306.27,21.5) scale(0.85,1)">80°</text>
+			<text transform="translate(1306.27,21.5) scale(0.85,1)">80°</text>
+		</symbol>
+		<symbol id="symbol_text_50">
+			<text transform="translate(1410.86,21.5) scale(0.85,1)">82°</text>
+			<text transform="translate(1410.86,21.5) scale(0.85,1)">82°</text>
+		</symbol>
+		<symbol id="symbol_text_51">
+			<text transform="translate(1515.45,21.5) scale(0.85,1)">84°</text>
+			<text transform="translate(1515.45,21.5) scale(0.85,1)">84°</text>
+		</symbol>
+		<symbol id="symbol_text_52">
+			<text transform="translate(1620.04,21.5) scale(0.85,1)">86°</text>
+			<text transform="translate(1620.04,21.5) scale(0.85,1)">86°</text>
+		</symbol>
+		<symbol id="symbol_text_53">
+			<text transform="translate(36.86,769.84) scale(0.85,1)">1 : 7 174 144</text>
+			<text transform="translate(36.86,769.84) scale(0.85,1)">1 : 7 174 144</text>
+		</symbol>
+		<symbol id="symbol_text_54">
+			<text transform="translate(53.38,744.84) scale(0.85,1)">250 km</text>
+			<text transform="translate(53.38,744.84) scale(0.85,1)">250 km</text>
+		</symbol>
+		<symbol id="symbol_text_55">
+			<text transform="translate(1121.27,770.98) scale(0.8,1)">Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under CC BY SA</text>
+			<text transform="translate(1121.27,770.98) scale(0.8,1)">Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under CC BY SA</text>
+		</symbol>
+	</defs>
+	<g id="Map_background" style="fill:#F1EEE8;stroke:#000000" inkscape:groupmode="layer" inkscape:label="Map background">
+		<g id="map_background" inkscape:groupmode="layer" inkscape:label="map background">
+			<rect x="0" y="0" width="1680" height="775" id="Map_Background_Fill" style="stroke:none" />
+		</g>
+	</g>
+	<g id="Bitmap__in_background" style="stroke:#000000" inkscape:groupmode="layer" inkscape:label="Bitmap (in background)">
+		<g id="tiles" inkscape:groupmode="layer" inkscape:label="tiles">
+			<use x="-220" y="-258" width="294" height="294" xlink:href="#symbol_tile_1" />
+			<use x="74" y="-258" width="294" height="294" xlink:href="#symbol_tile_2" />
+			<use x="368" y="-258" width="294" height="294" xlink:href="#symbol_tile_3" />
+			<use x="662" y="-258" width="294" height="294" xlink:href="#symbol_tile_4" />
+			<use x="956" y="-258" width="295" height="294" xlink:href="#symbol_tile_5" />
+			<use x="1251" y="-258" width="294" height="294" xlink:href="#symbol_tile_6" />
+			<use x="1545" y="-258" width="294" height="294" xlink:href="#symbol_tile_7" />
+			<use x="-220" y="36" width="294" height="294" xlink:href="#symbol_tile_8" />
+			<use x="74" y="36" width="294" height="294" xlink:href="#symbol_tile_9" />
+			<use x="368" y="36" width="294" height="294" xlink:href="#symbol_tile_10" />
+			<use x="662" y="36" width="294" height="294" xlink:href="#symbol_tile_11" />
+			<use x="956" y="36" width="295" height="294" xlink:href="#symbol_tile_12" />
+			<use x="1251" y="36" width="294" height="294" xlink:href="#symbol_tile_13" />
+			<use x="1545" y="36" width="294" height="294" xlink:href="#symbol_tile_14" />
+			<use x="-220" y="330" width="294" height="294" xlink:href="#symbol_tile_15" />
+			<use x="74" y="330" width="294" height="294" xlink:href="#symbol_tile_16" />
+			<use x="368" y="330" width="294" height="294" xlink:href="#symbol_tile_17" />
+			<use x="662" y="330" width="294" height="294" xlink:href="#symbol_tile_18" />
+			<use x="956" y="330" width="295" height="294" xlink:href="#symbol_tile_19" />
+			<use x="1251" y="330" width="294" height="294" xlink:href="#symbol_tile_20" />
+			<use x="1545" y="330" width="294" height="294" xlink:href="#symbol_tile_21" />
+			<use x="-220" y="624" width="294" height="295" xlink:href="#symbol_tile_22" />
+			<use x="74" y="624" width="294" height="295" xlink:href="#symbol_tile_23" />
+			<use x="368" y="624" width="294" height="295" xlink:href="#symbol_tile_24" />
+			<use x="662" y="624" width="294" height="295" xlink:href="#symbol_tile_25" />
+			<use x="956" y="624" width="295" height="295" xlink:href="#symbol_tile_26" />
+			<use x="1251" y="624" width="294" height="295" xlink:href="#symbol_tile_27" />
+			<use x="1545" y="624" width="294" height="295" xlink:href="#symbol_tile_28" />
+		</g>
+	</g>
+	<g id="Map_decoration" inkscape:groupmode="layer" inkscape:label="Map decoration">
+		<g id="map_grid__latitude" style="stroke:#B0B0B0;stroke-width:0.5;font-family:Tahoma;font-size:12px;font-weight:bold" inkscape:groupmode="layer" inkscape:label="map grid (latitude)">
+			<path style="fill:none" d="M-0.5 801.8 h1680" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_29" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_29" />
+			</g>
+			<path style="fill:none" d="M-0.5 686.39 h1680" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_30" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_30" />
+			</g>
+			<path style="fill:none" d="M-0.5 569 h1680" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_31" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_31" />
+			</g>
+			<path style="fill:none" d="M-0.5 449.4 h1680" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_32" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_32" />
+			</g>
+			<path style="fill:none" d="M-0.5 327.38 h1680" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_33" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_33" />
+			</g>
+			<path style="fill:none" d="M-0.5 202.66 h1680" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_34" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_34" />
+			</g>
+			<path style="fill:none" d="M-0.5 74.96 h1680" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_35" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_35" />
+			</g>
+		</g>
+		<g id="map_grid__longitude" style="stroke:#B0B0B0;stroke-width:0.5;font-family:Tahoma;font-size:12px;font-weight:bold" inkscape:groupmode="layer" inkscape:label="map grid (longitude)">
+			<path style="fill:none" d="M-43.7 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_36" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_36" />
+			</g>
+			<path style="fill:none" d="M60.89 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_37" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_37" />
+			</g>
+			<path style="fill:none" d="M165.48 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_38" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_38" />
+			</g>
+			<path style="fill:none" d="M270.07 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_39" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_39" />
+			</g>
+			<path style="fill:none" d="M374.66 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_40" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_40" />
+			</g>
+			<path style="fill:none" d="M479.25 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_41" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_41" />
+			</g>
+			<path style="fill:none" d="M583.84 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_42" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_42" />
+			</g>
+			<path style="fill:none" d="M688.43 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_43" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_43" />
+			</g>
+			<path style="fill:none" d="M793.01 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_44" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_44" />
+			</g>
+			<path style="fill:none" d="M897.6 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_45" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_45" />
+			</g>
+			<path style="fill:none" d="M1002.19 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_46" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_46" />
+			</g>
+			<path style="fill:none" d="M1106.78 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_47" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_47" />
+			</g>
+			<path style="fill:none" d="M1211.37 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_48" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_48" />
+			</g>
+			<path style="fill:none" d="M1315.96 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_49" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_49" />
+			</g>
+			<path style="fill:none" d="M1420.55 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_50" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_50" />
+			</g>
+			<path style="fill:none" d="M1525.14 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_51" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_51" />
+			</g>
+			<path style="fill:none" d="M1629.73 774.5 v-775" />
+			<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_52" />
+			</g>
+			<g style="fill:#303030;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_52" />
+			</g>
+		</g>
+		<g id="map_scale__text" style="stroke:#000000;font-family:Tahoma;font-size:12px;font-weight:bold" inkscape:groupmode="layer" inkscape:label="map scale (text)">
+			<g style="stroke-width:3;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_53" />
+			</g>
+			<g style="fill:#000000;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_53" />
+			</g>
+			<g style="stroke-width:3;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+				<use xlink:href="#symbol_text_54" />
+			</g>
+			<g style="fill:#000000;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_54" />
+			</g>
+		</g>
+		<g id="map_scale__indicator" style="fill:#000000;stroke:#000000" inkscape:groupmode="layer" inkscape:label="map scale (indicator)">
+			<rect x="6" y="747" width="28.44" height="7" style="stroke:#000000" />
+		</g>
+		<g id="map_scale__indicator1" style="fill:#FFFFFF;stroke:#000000" inkscape:groupmode="layer" inkscape:label="map scale (indicator)">
+			<rect x="33.44" y="747" width="28.44" height="7" style="stroke:#000000" />
+		</g>
+		<g id="map_scale__indicator11" style="fill:#000000;stroke:#000000" inkscape:groupmode="layer" inkscape:label="map scale (indicator)">
+			<rect x="60.88" y="747" width="28.44" height="7" style="stroke:#000000" />
+		</g>
+		<g id="map_scale__indicator111" style="fill:#FFFFFF;stroke:#000000" inkscape:groupmode="layer" inkscape:label="map scale (indicator)">
+			<rect x="88.32" y="747" width="28.44" height="7" style="stroke:#000000" />
+		</g>
+		<g id="map_scale__indicator1111" style="fill:#000000;stroke:#000000" inkscape:groupmode="layer" inkscape:label="map scale (indicator)">
+			<rect x="115.76" y="747" width="28.44" height="7" style="stroke:#000000" />
+		</g>
+		<g id="floating_label" style="stroke:#000000;font-family:Tahoma;font-size:14px;font-weight:bold" inkscape:groupmode="layer" inkscape:label="floating label">
+			<g style="stroke-width:3;stroke:#FFFFFF;fill:none;stroke-opacity:0.75">
+				<use xlink:href="#symbol_text_55" />
+			</g>
+			<g style="fill:#000000;stroke:none;fill-opacity:1">
+				<use xlink:href="#symbol_text_55" />
+			</g>
+		</g>
+	</g>
+	<g id="Map_frame" style="stroke:black;stroke-width:2;fill:none" inkscape:groupmode="layer" inkscape:label="Map frame">
+		<rect x="0" y="0" width="1680" height="775" />
+	</g>
+</svg>
